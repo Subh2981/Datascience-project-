@@ -1,0 +1,9 @@
+[2026-01-13 22:15:03,727] 8 root - INFO - The Execution has started 
+[2026-01-13 22:15:03,730] 26 root - INFO - Reading from my sql database 
+[2026-01-13 22:15:03,740] 33 root - INFO - Data Ingestion is completed 
+[2026-01-13 22:15:03,744] 52 root - INFO - Reading the train and test file 
+[2026-01-13 22:15:03,744] 36 root - INFO - categorical columns: ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course'] 
+[2026-01-13 22:15:03,744] 37 root - INFO - Numerical columns: ['reading_score', 'writing_score'] 
+[2026-01-13 22:15:03,745] 65 root - INFO - Appplying preprocessing on training and testing data 
+[2026-01-13 22:15:03,781] 73 root - INFO - Saved preproceinng 
+[2026-01-13 22:15:03,781] 19 root - INFO - Custom Exception 

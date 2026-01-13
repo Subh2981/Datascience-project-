@@ -6,6 +6,7 @@ import pandas as pd
 from src.mlproject.utils import read_sql_data
 from sklearn.model_selection import train_test_split
 from dataclasses import dataclass 
+import pandas as pd
 
 @dataclass
 
@@ -20,7 +21,8 @@ class DataIngestion:
     def initialte_data_ingestion(self):
         try:
             
-            df=read_sql_data()
+            #df=read_sql_data()
+            df=pd.read_csv(os.path.join('notebook/data','raw.csv'))
             logging.info("Reading from my sql database")
             
             os.makedirs(os.path.dirname(self.ingestion_config.train_data_path),exist_ok=True)
